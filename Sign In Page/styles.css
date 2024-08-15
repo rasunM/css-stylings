@@ -1,0 +1,106 @@
+:root{
+    --fb-bg-color:#3b5998;
+    --twiter-color:#1da1f2;
+    --primary-color:#ffffff;
+    --yahoo-color:#6330e4;
+    --linkedIN-color:#0077b5;
+    --font-color-blue:#2189e0;
+    --font-color-grey:#d6d6d6;
+    --font-color-black:#000000;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: var(--primary-color);
+}
+
+#app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 550px;
+    margin: 130px auto 10px;
+    padding-top: 70px;
+    background-color: var(--primary-color);
+    gap: 25px;
+    border: 1px solid var(--font-color-grey);
+}
+#app>div{
+    width: 230px;
+    height: 35px;
+    padding:0;
+    font-weight: 200;
+    font-size: 13px;   
+    display: flex;
+    padding: 10px 30px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    border-radius: 30px;
+}
+
+.sign-in-option::before{
+    content: '';
+    background-size: cover;  
+    position: relative;
+    width: 30px;
+    height: 30px; 
+    margin-right: 20px;
+}
+.sign-in-option:nth-child(1){
+    background-color: var(--fb-bg-color);
+    color: var(--primary-color);
+}
+
+.sign-in-option:nth-child(2){
+    background-color: var(--twiter-color);
+    color: var(--primary-color);
+}
+
+.sign-in-option:nth-child(3){
+    background-color: var(--primary-color);
+    color: var(--font-color-black);
+    border: 1px solid var(--font-color-grey);
+}
+
+.sign-in-option:nth-child(4){
+    background-color: var(--yahoo-color);
+    color: var(--primary-color);
+}
+.sign-in-option:nth-child(5){
+    background-color: var(--linkedIN-color);
+    color: var(--primary-color);
+}
+
+.sign-in-option:nth-child(1)::before{
+    background-image: url(assests/facebook.png);
+  
+}
+.sign-in-option:nth-child(2)::before{
+    background-image: url(assests/R.png);
+  
+}
+.sign-in-option:nth-child(3)::before{
+    background-image: url(assests/google.png);
+
+}
+.sign-in-option:nth-child(4)::before{
+    background-image: url(assests/yahoo.png);
+ 
+}
+.sign-in-option:nth-child(5)::before{
+    background-image: url(assests/linkedin.png);
+
+}
+
+hr span{
+    color: var(--font-color-grey);
+    height: 10px;
+}
+hr{
+    color: black;
+    size: 10px;
+}
