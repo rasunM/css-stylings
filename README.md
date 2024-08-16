@@ -1,2 +1,3 @@
 Simple Login Form HTML/ CSS With Transitions
-![Logo](layout.png)
+![Alt text](Sign%20In%20Page/layout.png)
+
