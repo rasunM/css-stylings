@@ -35,6 +35,8 @@ body{
 #form>h1{
     padding-left: 30px;
 }
+
+
 #input-texts{
     display: grid;
     grid-template-columns: 1fr 1fr;
