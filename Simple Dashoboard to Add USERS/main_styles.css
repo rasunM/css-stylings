@@ -1,0 +1,128 @@
+body{
+    background-color: #1c2841;
+    padding: 30px;
+    font-family: "Poppins",sans-serif;
+}
+
+#app{
+    display: grid;
+    grid-template-rows: 150px 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    padding: 0 100px;
+}
+
+#header{
+    grid-column: span 2;
+    border-radius: 20px;
+    text-align: start;
+    color: white;
+    font-size: 50px;
+}
+
+#display-students{
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+}
+
+#form{
+    background-color: #1c2841;
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+#form>h1{
+    padding-left: 30px;
+}
+#input-texts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    font-size: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+input{
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+label::before{
+    content: "\2022";
+    position: relative;
+    color: white;
+    left: 0;
+    top: 4px;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+button{
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+}
+
+input::placeholder{
+    font-size: 20px;
+    font-weight: 300;
+    color: #706a6a;
+}
+
+.labelAndInputField{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.labelAndInputField:nth-child(3){
+    grid-column: span 2;
+}
+.labelAndInputField:nth-child(4){
+    grid-column: span 2;
+}
+.labelAndInputField:nth-child(7){
+    grid-column: span 2;
+}
+.labelAndInputField:nth-child(8){
+    grid-column: span 2;
+}
+
+#table-container{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    width: 100%;
+
+}
+th{
+    font-size: 18px;
+    font-weight: 600;
+    color: yellow;
+}
+th, td{
+    border-bottom:1px solid  #66ff00;
+    text-align: start;
+    padding-bottom: 13px;
+}
+td{
+    padding-top: 40px;
+    font-weight: 300;
+}
+
+
+#display-students>h1{
+    padding: 0px 30px;
+}
+
+#table-container{
+    padding: 0 50px;
+}

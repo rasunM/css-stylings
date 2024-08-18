@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="main_styles.css">
+</head>
+<body>
+    <div id="app">
+        <div id="header">
+            <h1>Dashboard</h1>
+        </div>
+        <div id="display-students">
+            <h1>Students</h1>
+            <div id="table-container">
+
+                <table>
+                    <tr>
+                        <th>Student ID</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Father Name</th>
+                        <th>Father's Contact Number</th>
+                        <th>Class</th>
+                        <th>Student Address</th>
+                    </tr>
+
+                    <tr class="data-rows">
+                        <td>1001</td>
+                        <td>Jim</td>
+                        <td>Boe</td>
+                        <td>John</td>
+                        <td>0123456789</td>
+                        <td>A1</td>
+                        <td>13/B London</td>
+                    </tr>
+                    <tr class="data-rows">
+                        <td>1001</td>
+                        <td>Jim</td>
+                        <td>Boe</td>
+                        <td>John</td>
+                        <td>0123456789</td>
+                        <td>A1</td>
+                        <td>13/B London</td>
+                    </tr>
+                    <tr class="data-rows">
+                        <td>1001</td>
+                        <td>Jim</td>
+                        <td>Boe</td>
+                        <td>John</td>
+                        <td>0123456789</td>
+                        <td>A1</td>
+                        <td>13/B London</td>
+                    </tr>
+                </table>    
+
+            </div>
+               
+        </div>
+        <div id="form">
+
+            <h1>Add Student</h1>
+
+            <div id="input-texts">
+                <div class="labelAndInputField">
+                    <label>First Name</label>
+                    <input type="text" id="firstName" placeholder="First name">
+
+                </div>
+                <div class="labelAndInputField">
+                    <label>Last Name</label>
+                    <input type="text" id="lastName" placeholder="Last Name">
+                </div>
+                <div class="labelAndInputField">
+                    <label>Father's Name</label>
+                    <input type="text" id="fatherName" placeholder="Father's Name">
+
+                </div>
+                <div class="labelAndInputField">
+                    <label>Father Contact</label>
+                    <input type="text" id="fatherContact" placeholder="Father Contact">
+                </div>
+                <div class="labelAndInputField">
+                    <label>Student ID</label>
+                    <input type="text" id="studentID" placeholder="Student Id">
+                </div>
+                <div class="labelAndInputField">
+                    <label>Class</label>
+                    <input type="text" id="class" placeholder="Class No">
+                </div>
+                <div class="labelAndInputField">
+                    <label>Student Address</label>
+                    <input type="text" placeholder="Student Address" id="studentAddress">
+                </div>
+                <div class="labelAndInputField">
+                    <button type="Submit" id="submit">Submit</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
